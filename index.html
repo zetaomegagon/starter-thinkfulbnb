@@ -31,59 +31,6 @@
     </header>
 
     <main>
-
-      <!--
-	  HTML form
-	---------
-	  In the "Find your perfect vacation rental" section, create a form that 
-	  contains the following input fields with the specified types:
-
-	  * Location: text input type, with a placeholder value of "Search destination"
-	  * Arrive: date input type
-	  * Depart: date input type
-
-	  "Type" is a dropdown list with the following options:
-	  * Apartment
-	  * Barn
-	  * Castle
-	  * Houseboat
-	  * Tiny House
-	  * Yacht
-	  * Yurt
-	  * a "Search" button
-
-	  Some CSS styles have already been written for you to help style your form:
-
-	  form {
-	  border: 2px solid #ff385c;
-	  padding: 10px;
-	  }
-
-	  form label {
-	  font-weight: bold;
-	  }
-
-	  form select,
-	  form input {
-	  margin-bottom: 20px;
-	  width: 180px;
-	  }
-
-	  form button {
-	  background-color: #ff385c;
-	  border: none;
-	  color: #fff;
-	  font-size: 24px;
-	  padding: 15px;
-	  width: 100%;
-	  }
-
-	  Add CSS to the form so that the labels (i.e., "Location", "Arrive", "Depart", "Type") 
-	  and their corresponding form fields are aligned towards the opposite ends of each row
-	-->
-
-
-
       <!-- Stay -->
       <section id="stay">
         <h2>Find the perfect vacation rental</h2>
@@ -92,23 +39,23 @@
 	  <form action="#" method="get">
 	    <fieldset>
 	      
-	      <div>
+	      <div class="group-form item">
 		<label for="location">Location:</label>
 		<input id="location" type="text" name="name" placeholder="Search Destination">
 	      </div>
 	      
-	      <div>
+	      <div class="group-form item">
 		<label for="arrive">Arrive:</label>
 		<input id="arrive" type="date" name="arrive">
 	      </div>
 	      
-	      <div>
+	      <div class="group-form item">
 		<label for="depart">Depart:</label>
 		<input id="depart" type="date" name="depart">
 	      </div>
 
-	      <div>
-		<label for="type">Type:</lable>
+	      <div class="group-form item">
+		<label for="type">Type:</label>
 		<select name="type" size="1">
 		  <option value="apartment">Apartment</option>
 		  <option value="barn">Barn</option>
