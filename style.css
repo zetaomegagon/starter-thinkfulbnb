@@ -64,6 +64,17 @@ header {
   color: #fff;
 }
 
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+}
+
 header nav ul li {
   list-style-type: none;
 }
