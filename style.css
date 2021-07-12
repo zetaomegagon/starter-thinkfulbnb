@@ -85,6 +85,10 @@ header nav ul li a {
   padding: 0 20px 0 0;
 }
 
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
 header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
@@ -115,6 +119,9 @@ form button {
   width: 100%;
 }
 
+fieldset {
+    border: 0;
+}
 /* -------  Footer ------- */
 
 footer {
