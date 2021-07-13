@@ -129,6 +129,14 @@ form button {
     display: flex;
     justify-content: space-between;
 }
+
+/* -------  Images ------- */
+
+section img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 /* -------  Footer ------- */
 
 footer {
