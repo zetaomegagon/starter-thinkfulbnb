@@ -30,9 +30,6 @@ section.alternate-background {
     color: #fff;
 }
 
-main img {
-    width: 100px;
-}
 
 /* ---  Groups & Items --- */
 
@@ -53,6 +50,8 @@ main img {
 /* -------  Navigation ------- */
 
 header {
+    display: flex;
+    flex-direction: column;
     background-color: #ff385c;
     padding: 20px 20px 0 20px;
     text-align: center;
@@ -150,3 +149,12 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+@media all and (min-width: 481px) {
+    .header-desktop {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+    }
+}
