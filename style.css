@@ -124,7 +124,7 @@ form button {
     width: 100%;
 }
 
-.group-form {
+form div {
     display: flex;
     justify-content: space-between;
 }
@@ -133,7 +133,6 @@ form button {
 
 section img {
     width: 100%;
-    margin-bottom: 30px;
 }
 
 /* -------  Footer ------- */
@@ -157,4 +156,30 @@ footer p {
 	align-items: center;
 	justify-content: space-between;
     }
+
+    fieldset {
+	display: flex;
+    }
+
+    .item {
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-between;
+    }
+
+    .item-double {
+	flex: 2;
+	flex-grow: 2;
+    }
+
+    .item-center-vertical {
+	align-self: center;
+	margin: 0px 10px 30px 20px;
+    }
+
+    .group {
+	display: flex;
+	flex-direction: row;
+    }
+
 }
