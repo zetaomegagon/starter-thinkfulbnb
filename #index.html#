@@ -13,7 +13,7 @@
   <body>
     <header class="header-desktop">
       
-      <h1>Thinkfulbnb</h1>
+      <div class="logo">Thinkfulbnb</div>
 
       <nav>
         <ul id="menu">
